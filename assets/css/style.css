@@ -5,7 +5,9 @@
 	margin: 0;
 	padding: 0;
 }
-
+img {
+	max-width: 100%;
+}
 
 body {
 	background: url('../images/background-1.png');
@@ -17,37 +19,6 @@ body {
 	column-count: 3;
 	column-gap: 1em;
 	padding: 30px;
-}
-
-
-.item-a {
-	display: inline-block;
-	background: white;
-	border-radius: 5px;
-	padding: 20px;
-	/*max-width: 364px;*/
-	width: 100%;
-	margin: 0 0 1em;
-}
-.item-b {
-	display: inline-block;
-	background: white;
-	border-radius: 5px;
-	padding: 20px;
-	/*max-width: 578px;*/
-	width: 100%;
-	margin: 0 0 1em;
-
-}
-
-.item-c {
-	display: inline-block;
-	background: white;
-	border-radius: 5px;
-	padding: 20px;
-	/*max-width: 576px;*/
-	width: 100%;
-	margin: 0 0 1em;
 }
 
 .item {
@@ -73,6 +44,7 @@ body {
   }
 
 }
+
 
 
 
